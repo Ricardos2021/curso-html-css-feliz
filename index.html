@@ -11,51 +11,196 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
      
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/components/header.css">
-    <link rel="stylesheet" href="css/components/banner.css">
-    <link rel="stylesheet" href="css/components/section.css">
-    <link rel="stylesheet" href="css/components/button.css">
-    <link rel="stylesheet" href="css/components/title.css">
-    <link rel="stylesheet" href="css/components/subtitle.css">
-    <link rel="stylesheet" href="css/components/box.css">
-    <link rel="stylesheet" href="css/components/action.css">
-    
-
-
+    <link rel="stylesheet" href="css/components/main-header.css">
+    <link rel="stylesheet" href="css/components/main-banner.css">
+    <link rel="stylesheet" href="css/components/main-section.css">
+    <link rel="stylesheet" href="css/components/main-button.css">
+    <link rel="stylesheet" href="css/components/main-title.css">
+    <link rel="stylesheet" href="css/components/main-subtitle.css">
+    <link rel="stylesheet" href="css/components/main-box.css">
+    <link rel="stylesheet" href="css/components/main-action.css">
+    <link rel="stylesheet" href="css/components/wrapper-skill.css">
+    <link rel="stylesheet" href="css/components/skill-tec.css">
+    <link rel="stylesheet" href="css/components/progress-bar.css">
+    <link rel="stylesheet" href="css/components/card-project.css">
+    <link rel="stylesheet" href="css/components/wrapper-card.css">
+    <link rel="stylesheet" href="css/components/main-description.css">
+    <link rel="stylesheet" href="css/components/main-carousel.css">
+    <link rel="stylesheet" href="css/components/button-arrow.css">
+    <link rel="stylesheet" href="css/components/node-card.css">
     
 </head>
 <body>
-<header class="header">
+<header class="main-header">
 
    <!-- <h1>MB</h1>-->
 <img class="logo" src="assets/img/logo.png" alt="logo marco bruno ">
     <nav > 
     
-        <a class="action" href="index.html" lang="en">Skills</a> 
-        <a class="action" href="">Projetos</a> 
-        <a class="action" href="">Sobre</a> 
-        <a class="action" href="">Contatos</a> 
-        <a class="button" href="" lang="en">Download CV</a> 
+        <a class="main-action" href="index.html" lang="en">Skills</a> 
+        <a class="main-action" href="">Projetos</a> 
+        <a class="main-action" href="">Sobre</a> 
+        <a class="main-action" href="">Contatos</a> 
+        <a class="main-button" href="" lang="en">Download CV</a> 
     
     </nav>
  </header>
     <!-- <p>Estou indo estudar <em lang="en"> FrontEnd </em></p> -->
-  <section class="banner">
+  <section class="main-banner">
       <div class="wrapper">
 
-        <div class="box">
-          <h1 class="title">Marco Bruno</h1>
-            <h2 class="subtitle">FrontEnd Developer</h2>
+        <div class="main-box">
+          <h1 class="main-title">Marco Bruno</h1>
+            <h2 class="main-subtitle">FrontEnd Developer</h2>
              </div>
             <div class="navigation">
-           <a class=" button" href="" lang="en">Download CV</a>
-          <a class=" button" href="">Contatos</a>
+           <a class=" main-button" href="" lang="en">Download CV</a>
+          <a class=" main-button" href="">Contatos</a>
           </div>
         </div>
     </section>
-    <section class="section">
-      <h2 class="title -second">Skills</h2>
-    </section>
-     
+    <section class="main-section">
+      <h2 class="main-title -second">Skills</h2>
+
+      <div class="wrapper-skill">
+           
+          <article class="skill-tec"> 
+                    <img class="icon" src="img/ico_html5.png" alt="Logo do html5 em pixel art">
+                    <div class="right">
+                         <h3 class="title">HTML</h3>
+                         <progress class="progress-bar" max="100" value="70">70%</progress>
+                    </div>
+          </article>
+          <article class="skill-tec"> 
+               <img class="icon" src="img/ico_nodejs.png" alt="Logo do nodejs em pixel art">
+               <div class="right">
+                    <h3 class="title">NodeJS</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+               </div>
+          </article>
+          <article class="skill-tec"> 
+               <img class="icon" src="img/ico_css3.png" alt="Logo do css3 em pixel art">
+               <div class="right">
+                    <h3 class="title">CSS3</h3>
+                    <progress class="progress-bar" max="100" value="70">70%</progress>
+               </div>
+          </article>
+          <article class="skill-tec"> 
+          <img class="icon" src="img/ico_tdd.png" alt="Logo do TDD em pixel art">
+          <div class="right">
+               <h3 class="title">TDD</h3>
+               <progress class="progress-bar" max="100" value="70">70%</progress>
+          </div>
+          </article>
+         
+          <article class="skill-tec"> 
+          <img class="icon" src="img/ico_js.png" alt="Logo do js em pixel art">
+          <div class="right">
+               <h3 class="title">JavaScript</h3>
+               <progress class="progress-bar" max="100" value="70">70%</progress>
+          </div>
+          </article>
+          
+          <article class="skill-tec"> 
+          <img class="icon" src="img/ico_restapi.png" alt="Logo do restapi em pixel art">
+          <div class="right">
+               <h3 class="title">Rest API</h3>
+               <progress class="progress-bar" max="100" value="70">70%</progress>
+          </div>
+          </article>
+          
+          <article class="skill-tec"> 
+          <img class="icon" src="img/ico_react.png" alt="Logo do React em pixel art">
+          <div class="right">
+               <h3 class="title">React</h3>
+               <progress class="progress-bar" max="100" value="70">70%</progress>
+          </div>
+          </article>
+          
+          <article class="skill-tec"> 
+          <img class="icon" src="img/ico_ux.png" alt="Logo do UX em pixel art">
+          <div class="right">
+               <h3 class="title">UX</h3>
+               <progress class="progress-bar" max="100" value="70">70%</progress>
+          </div>
+          </article>
+       </div>
+        </section> 
+
+
+      <section class="main-section -bgBlack -bdFirst">
+           <h2 class=" main-title -second">Plojetos</h2>
+           
+           <div class="wrapper-card">
+                <a href="https://" target="_blank">
+                    <figure class="card-project">
+                    <img class="Logo" src="img/firedlabs.png" alt="Logo da FiredLabs">
+                    </figure>
+               </a>
+               <a href="http://" target="_blank">
+                    <figure class="card-project -blue">
+                    <img class="Logo" src="img/collabcode.png" alt="Logo da collabcode">
+                    </figure>
+               </a>
+               <a href="http://" target="_blank">
+                    <figure class="card-project">
+                    <img class="Logo" src="img/portfolio.png" alt="Avata Marco Bruno">
+                    </figure>
+              </a>
+           </div>
+        </section>
+        <section class="main-section -bgSecond -bdBlack" >
+          <h2 class="main-title -second -dois">Sobre</h2>
+        <p class="main-description">  Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos. </p>
+
+        <section class="main-carousel">
+
+        <button class="button-arrow -left"><span class="content">Voltar</span></button>
+
+         <div class="items">
+          <div class="elements">
+
+               <figure class="node-card"> <figcaption class="title">2012</figcaption>
+                    <div class="logo">
+                    <img src="img/logo-locaweb.png" alt="Logo da Locaweb" ></div>
+                    
+               </figure>
+
+               <figure class="node-card -clean"> <figcaption class="title">2014</figcaption>
+                    <div class="logo">
+                    <img src="img/logo-caelum.png" alt="Logo da Caelum" ></div>
+                    
+               </figure>
+               
+          
+               <figure class="node-card -first"> <figcaption class="title">2016</figcaption>
+                    <div class="logo">
+                    <img src="img/logo-getninjas.png" alt="Logo da Getninjas" ></div>
+               
+               </figure>
+
+               <figure class="node-card -clean"> <figcaption class="title">2017</figcaption>
+                    <div class="logo">
+                    <img src="img/logo-caelum.png" alt="Logo da Caelum" ></div>
+               
+               </figure>
+
+               <figure class="node-card"> <figcaption class="title">2018</figcaption>
+                    <div class="logo">
+                    <img src="img/logo-impulso.png" alt="Logo da Impulso" ></div>
+               
+               </figure>
+
+               <figure class="node-card -first"> <figcaption class="title">2019</figcaption>
+                    <div class="logo">
+                    <img src="img/logo-collabcode.png" alt="Logo da Collabcode" ></div>
+               
+               </figure>
+         </div>
+         </div>
+
+        <button class="button-arrow -right"><span class="content">Avançar</span></button>
+        </section>
+       </section>
 </body>
 </html>
